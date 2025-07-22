@@ -1,16 +1,4 @@
 {
-  "framework": "nextjs",
   "buildCommand": "pnpm build",
-  "installCommand": "pnpm install",
-  "functions": {
-    "app/api/**/*.ts": {
-      "runtime": "nodejs20.x"
-    }
-  },
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/$1"
-    }
-  ]
+  "installCommand": "pnpm install"
 }
